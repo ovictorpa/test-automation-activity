@@ -14,7 +14,6 @@ class CartPage {
             .contains('Subtotal (1 item):')
                 .should('be.visible')
     }
-
     checkAddTwoProductsToCart(){
         cy.contains("Adicionado ao carrinho")
             .should('be.visible')
